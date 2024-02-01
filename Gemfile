@@ -1,1 +1,3 @@
-ruby version '3.2.2'
+source "https://rubygems.org"
+ruby '3.2.2'
+gem 'pry'
