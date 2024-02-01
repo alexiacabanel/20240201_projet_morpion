@@ -1,5 +1,14 @@
-class Player
-    attr_accessor
+require_relative 'board'
+require_relative 'boardcase'
 
-    a
+require 'pry'
+
+class Player
+    attr_reader :name, :value
+  
+    def initialize(name, value)
+        @name = name
+        @value = value
+    end
+
 end
